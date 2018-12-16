@@ -1,0 +1,1388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9A30621A8C24DCBA4CD304ACCF84F6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0604B8A39450425A907834F57051B270 /* SYZTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE0610E44A6F987E686167A71FD6C2B /* SYZTimerProxy.m */; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5671E5028B78FC72210DA02E667DC5 /* UIApplication+StrictKeyWindow.m */; };
+		09C64AB25E31FD903BA3249AD500558D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */; };
+		0B775C1563690F0D56CF9F42F22DA84C /* NSData+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E42F57A8E1D7B2B3148EB97997E3899B /* NSData+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D06C924050C893836A93AAA27385EAC /* NSDateFormatter+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C557F2A8AB4C7918C7E4F9DD9ABF13A /* NSDateFormatter+SYZFoundationAdd.m */; };
+		0DE2E4746AE3210A8745C9E574D13874 /* NSAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D91F1C135E0F36AC2D5917CBC6B109B /* NSAttributedString+SYZAdditon.m */; };
+		10192754FD90CF3BAE6C15D9EF50AD13 /* NSTimer+SYZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E558097D6FFE0FEDF3892A81FAE461C4 /* NSTimer+SYZTimer.m */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D060A413795D0BDB9C7C4743A7E2608 /* SwiftSupport.swift */; };
+		2644E060EE0EB8D7D94D45C5CF8436FC /* SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = BB648FDA8872D5FF4C9C402DEEF5765C /* SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AFCFE6C18DEE4C47311237982D74F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A6EE0FF0FC471FBD6F7F4D9AF8A76C /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64E251EEDD0EE0225E00D92593A863 /* UIImage+Diff.m */; };
+		36C5B182BDBAFCDC6A60BCF01ECC288C /* UIDevice+SYZDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4793832F5A3A2D20EADAB517C23E0A05 /* UIDevice+SYZDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3768E136F8E55459F0A6B4CF637F0A81 /* SYZPermissSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA7C1CFB3F03CF4083EFC022FE5123F /* SYZPermissSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C54D700FFBC51C7C73D279D4416348 /* NSMutableArray+SYZMutableArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6CFE36DE1D27624F8DF4A778047080 /* NSMutableArray+SYZMutableArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0E3FC03AB24210F98D2C6B468893BE /* NSSet+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 659D2BE4FD7533CD9DD56B02C92C4798 /* NSSet+SYZFoundationAdd.m */; };
+		3AF6F10740DC1901E3FA24D571D3811A /* NSBundle+SYZBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E8D3ADC8FA01988A00C545BB4AA7B1 /* NSBundle+SYZBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 6374A3851522C1AFEC27E077AE5460BF /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		48C7362E9E0D20423FBC9273553B641E /* NSDate+SYZTimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F6F565DAA040478064C1D33FFD7EB2 /* NSDate+SYZTimeStamp.m */; };
+		5048A635AE8C2D309F14C3BE9EC383F0 /* Pods-SYZPermissionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA43EE83163D547DAA5D963C9C9929F /* Pods-SYZPermissionKit_Example-dummy.m */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98A4AA8513C5A92CCBD5C3D836ADE0 /* FBSnapshotTestCase-dummy.m */; };
+		598001678804B5248CB266ED73FB38FA /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 886246B1D79FB92E452695A1A67E5DE7 /* NSJSONSerialization+SYZUIBaseKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE17F2011BEA98AC1CBEA26C4923DD1 /* SYZWeakObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 686F440F33F3CD321F2EABDBDBCB1F6C /* SYZWeakObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB4117A9EEDD474AB0866E0E48EEC1D /* NSArray+SYZArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BDD01FBD57246FAACFF43AA83C8761 /* NSArray+SYZArrayAdd.m */; };
+		60DBA77C1D60D67CD6ACC7B6A5C762F6 /* NSObject+SYZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506416E2DDECD9AAB00961181F7D306 /* NSObject+SYZObject.m */; };
+		60F929EED771A9A525A3791037521EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */; };
+		620BAD64534C3D562CE9AB92601F413B /* NSMutableArray+SYZMutableArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 541DDA46D3018E550930D0A41019899F /* NSMutableArray+SYZMutableArrayAdd.m */; };
+		692C579B927CB2F205C215FC965162C1 /* NSScanner+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7340A5D87728C3D7458AE60B4E4D237 /* NSScanner+SYZFoundationAdd.m */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = BD63CC514DF5241DB1666A9C744AD51F /* UIImage+Compare.m */; };
+		6FC4859078067AAC0B902E25E67483CD /* Pods-SYZPermissionKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F3C4EE1B9B9C034695D5952D45AE9 /* Pods-SYZPermissionKit_Tests-dummy.m */; };
+		70D0BCA72C1F34167D8AA213B9C5D139 /* SYZUIBasekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6088D57CFEDE218163610C34C4CAB7DB /* SYZUIBasekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = BC74B6860C49FD5F498466389B845A7A /* UIImage+Snapshot.m */; };
+		76C0D1B0C0FBCE29ED0AC5D250980767 /* NSNumber+SYZNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = F65DFA324BFE74E29ADAC363A393587C /* NSNumber+SYZNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		771EB0CBCC9888E33258916EFF576EF8 /* SYZPermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9980679457FAE0966A76AD607CAC114 /* SYZPermissionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915095DA1D88E5EE567FEB7FA72D08B8 /* XCTest.framework */; };
+		80792A386D58B9CF0165BE86C13CFC2E /* NSMutableAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = B9491E358D03720B33FB33B351CAB27C /* NSMutableAttributedString+SYZAdditon.m */; };
+		81CB0B843F72F19BCCE73FBAFA6E6F5D /* SYZTimerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E504C38933BB319C0D7CF74D8E388A /* SYZTimerProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8399F18CAFC330B0A3407B4326367A4B /* NSURL+SYZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5578A70BABB64FE08D87E686F9065 /* NSURL+SYZURL.m */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB58131C72F809B650562B70DE0041D /* UIKit.framework */; };
+		87B653C2130C194CB9D5F7C701DE3F60 /* SYZUIBasekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F66B62FE0B36DD4B5022D07CA76F8B27 /* SYZUIBasekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A7C6821A1CD8E676CC807E6382E448 /* NSBundle+SYZBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEDC5B1669277223DFA8D34BFC9683 /* NSBundle+SYZBundle.m */; };
+		89E98EA0058B093286B158BB724992DE /* UIApplication+SYZFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = E243B5E1CF6A75385D6EF78959063D17 /* UIApplication+SYZFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A18FCA85EA7AE34A5A915AD84307686 /* SYZWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5097FEBD4C3AA710A3FEC73DC7B00 /* SYZWeakObject.m */; };
+		8B608A8A289B64937DB342E91C79EC6F /* SYZUIBasekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82219113B54545019F6945A5D0338583 /* SYZUIBasekit.framework */; };
+		8D82F2F10B7BFAD837371679A36DC247 /* SYZPermissionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C33FEF87C237CB7D9758270688BA69BB /* SYZPermissionKit-dummy.m */; };
+		8F87748250593B9683E27AD1B4F4B930 /* NSScanner+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A6669AE71156DF4C059B8DD857B8B3E1 /* NSScanner+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9039E4D2B9DF52EFC58890B380C2310D /* NSDate+SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDE158846DFFF257D7267AE83D455F8 /* NSDate+SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */; };
+		9279ED2B3484FC79BB709F63880F6FEF /* SYZPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E83D4483CA84FAA62467B1DA7E4252 /* SYZPermissionManager.m */; };
+		92C6C3BDCE1AA52A49920849A46AA521 /* NSFileManager+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E55F771F78EE8EAFF1F501110853B1B4 /* NSFileManager+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936CF5CC2D292505076049D6736946ED /* NSException+SYZException.h in Headers */ = {isa = PBXBuildFile; fileRef = 469C47D339CDCF078DCEC946F4D5266C /* NSException+SYZException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965057FDEC2F76F54B8D984E357EA428 /* SYZDateEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9B178FA6733C6AD42EE5631D6B1206 /* SYZDateEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9665E3E511CBE593D0164C9BB0A0AEAE /* NSSet+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7E37521877AF95F57231A1A9FE854E /* NSSet+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC78F82B3B92F728840E9C595AD06A3 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B348FF562730B41BEFDC509F3B33861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */; };
+		9C34B5BC9A229AA398C47A26F1149D69 /* NSObject+SYZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A235A5E70BA3E6E436D736E0FDF29A3 /* NSObject+SYZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A005B0A177EB0BCC0D80410A7F17D131 /* NSData+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D747CD1C70AB80035E3ED1C28B9F0 /* NSData+SYZFoundationAdd.m */; };
+		A4BB6561090390CD255E53137FD90534 /* UIApplication+SYZFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72161138966E90E032401712AE0CB16C /* UIApplication+SYZFoundation.m */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4EFDF4E47A03CF23094F8B0AE5313A /* FBSnapshotTestController.m */; };
+		B204E0352B86F3B44BFA78DC1996BB2E /* NSDictionary+SYZDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A134565DB87EC653A1201D45C0CAB3D /* NSDictionary+SYZDictionary.m */; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075FA9E6507B8FAEC8E63BE7B0999B01 /* QuartzCore.framework */; };
+		B2F08147F9049FC96939042B3767B510 /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C03821E5DCCA1E269D44F04FD8B8E0 /* NSHTTPCookieStorage+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B5334D17F1D033F92D030F875C9672 /* NSURL+SYZURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9531C2771C7C7BD08C72754A8E890662 /* NSURL+SYZURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EE238800335CD3E6CC709FE24ED2B3 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D330BB2DF801A7C264D5BD02AA9264 /* NSString+SYZString.m in Sources */ = {isa = PBXBuildFile; fileRef = E55E9C30AC2F1D7991BFDBCE78C58025 /* NSString+SYZString.m */; };
+		BAEDC075189E2F55700D7087280D5BBF /* NSTimer+SYZTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BE557A71DA61AFD16A6368FAADCB1D /* NSTimer+SYZTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE03CF8B2EAEC95CF18AA32CCF0B2F8 /* NSMutableAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB33835523F4289F1D8AFC926C7098F /* NSMutableAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 88762FE39BD0169C3DF959965F882D4A /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A276A5D893045B07E53C73895B8D2C8B /* FBSnapshotTestCase.m */; };
+		BE471A96FEB4CA69470FDFB95309D8B9 /* NSDate+SYZDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8730382D19C7FD91878DD4839BA89A7 /* NSDate+SYZDate.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 797069AFCA9AB120E5D18DCBF4AA3A08 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3AAFDED0B820F848D823FC893917600 /* NSString+SYZString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A309A1CB82D4B629422D392C69F6A47 /* NSString+SYZString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C632E2F995B99D5F49E99A03C47945CA /* Pods-SYZPermissionKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F144DE8555C68640A294E03EB5C4F14B /* Pods-SYZPermissionKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 999E2364CE7997CF118BE220A1EF546E /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CCF9B4AE2BB7F1855CC38B58C77089E3 /* NSAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF3B07FC31AB189DF1AFCE1A3C153C4 /* NSAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA80237DB3B8A2E6E9FFD01F4EEAC70 /* NSNumber+SYZNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADFE92BA96EAB2E86C2F64D626EB1A2 /* NSNumber+SYZNumber.m */; };
+		D2C6E71EEB8E92B5A363AAE6282366E9 /* NSDateFormatter+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FEB4830349DE8B3084A0D87002F5FD /* NSDateFormatter+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57227CF120ABCC986B73AF40E2D92AF /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B258073A3256856F4C52CEB42D0E2 /* NSHTTPCookieStorage+SYZFoundationAdd.m */; };
+		D9AA10E4E7A0F228681917DC39004E5F /* SYZUIBasekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 200076B7DA86D45AC17F4762529B1D07 /* SYZUIBasekit-dummy.m */; };
+		DACCFF57E7F5CC2989F0144E4A0EA0DA /* SYZPermissionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC95EDEEAED492073025046E36E39A9 /* SYZPermissionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4B53F25CEC5E445731A575025BE11 /* FBSnapshotTestCasePlatform.m */; };
+		DCECD35AF91E0E3EAFE2147A0BC3488F /* NSException+SYZException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC3A49E6CF7B4A4944093DF8FE291D /* NSException+SYZException.m */; };
+		E1DA87EF693A99B723C7C33546499DD3 /* NSArray+SYZArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB55C65C0587C556C0F360ECB73B38F /* NSArray+SYZArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED47F4D6057A67F2C36B307900A53011 /* NSFileManager+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B05CB90B04171706092C8DFD390FCD /* NSFileManager+SYZFoundationAdd.m */; };
+		F34D8788D97FD31C00161D7B56F5A1E6 /* SNHPermissionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 31284C754D2986056D4F0DF73914ABB1 /* SNHPermissionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81D207EE5462DE04D283DCC2D690CFE /* NSDate+SYZTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BBF4A2F342DF4253DB96CBBEF19ECF /* NSDate+SYZTimeStamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F995787F5EB2FE1468177AD1576E551C /* SYZPermissSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E566735FA78CE327F0AF1939CA5E28 /* SYZPermissSetting.m */; };
+		FA92E262F3757BEBAB52E52A6693AB8A /* UIDevice+SYZDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FDDC128B5379E965AA493523073DD7 /* UIDevice+SYZDevice.m */; };
+		FC2A3C97D23C03B159731BC7517188E7 /* Pods-SYZPermissionKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268F253AAF4BCFB63F3DCBE6CEDE25E8 /* Pods-SYZPermissionKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8FCAA98E07F864E094AFA2D19C63A5 /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B02970AA5FED8B587AD1CC9DD7D65F9 /* NSJSONSerialization+SYZUIBaseKitAdd.m */; };
+		FDCA626A60DAD83E654EE0FBEE52C96A /* NSDictionary+SYZDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DBD821917F89BFF7124B9AF663CD0E /* NSDictionary+SYZDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		284B98766D6EDB2A71A4C7BFAFFBEB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC092C29B93678CE228501323452FB9;
+			remoteInfo = SYZUIBasekit;
+		};
+		75FAC5CB12FE0D8E58FF3DC317D0F785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		9A788ED94AC05449930C11A4E9FBD1F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A302F00B66A27E50F55A1876CDD1ABA0;
+			remoteInfo = SYZPermissionKit;
+		};
+		F240ACE344636BA06599A5B7F8A963CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC092C29B93678CE228501323452FB9;
+			remoteInfo = SYZUIBasekit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B86E787A0F3378C6FE20120E2738DB /* Pods-SYZPermissionKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZPermissionKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		075FA9E6507B8FAEC8E63BE7B0999B01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		08DBD821917F89BFF7124B9AF663CD0E /* NSDictionary+SYZDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SYZDictionary.h"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.h"; sourceTree = "<group>"; };
+		0A309A1CB82D4B629422D392C69F6A47 /* NSString+SYZString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SYZString.h"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.h"; sourceTree = "<group>"; };
+		0A7E37521877AF95F57231A1A9FE854E /* NSSet+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		0B5B145F984D914420A5B5978D9130FB /* Pods-SYZPermissionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZPermissionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D91F1C135E0F36AC2D5917CBC6B109B /* NSAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		0F9B4E011A4A646669966F3E692A31C1 /* SYZPermissionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYZPermissionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18C3346B2EFA6989A95A9512DE0399E0 /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZUIBasekit.framework; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFD8BBBBE951AAC3074589E6BB630A3 /* Pods-SYZPermissionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1CB33835523F4289F1D8AFC926C7098F /* NSMutableAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		1CDE158846DFFF257D7267AE83D455F8 /* NSDate+SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZDate.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.h"; sourceTree = "<group>"; };
+		1D5CCEF691FE689138B37B8F7EC441B0 /* SYZPermissionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZPermissionKit-prefix.pch"; sourceTree = "<group>"; };
+		1DF3B07FC31AB189DF1AFCE1A3C153C4 /* NSAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		200076B7DA86D45AC17F4762529B1D07 /* SYZUIBasekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZUIBasekit-dummy.m"; sourceTree = "<group>"; };
+		2078824D041B8B48DC3208DCFF30A269 /* Pods-SYZPermissionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZPermissionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		219B7938F42D1D2F6FDA863922B2A5AE /* SYZUIBasekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-prefix.pch"; sourceTree = "<group>"; };
+		21E48C282BE498029DC315DA6A34C8E5 /* SYZUIBasekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZUIBasekit.xcconfig; sourceTree = "<group>"; };
+		23FDDC128B5379E965AA493523073DD7 /* UIDevice+SYZDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SYZDevice.m"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.m"; sourceTree = "<group>"; };
+		268F253AAF4BCFB63F3DCBE6CEDE25E8 /* Pods-SYZPermissionKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZPermissionKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		26E566735FA78CE327F0AF1939CA5E28 /* SYZPermissSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZPermissSetting.m; path = SYZPermissionKit/Classes/SYZPermissSetting.m; sourceTree = "<group>"; };
+		27BE557A71DA61AFD16A6368FAADCB1D /* NSTimer+SYZTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+SYZTimer.h"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.h"; sourceTree = "<group>"; };
+		284CFCC8B2980335051C02390206574F /* Pods-SYZPermissionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D4EFDF4E47A03CF23094F8B0AE5313A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		2EA0056119DB65EFB2F41585A17B3A60 /* SYZPermissionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZPermissionKit.framework; path = SYZPermissionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31284C754D2986056D4F0DF73914ABB1 /* SNHPermissionKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNHPermissionKit.h; path = SYZPermissionKit/Classes/SNHPermissionKit.h; sourceTree = "<group>"; };
+		3157BC133A307C672EED127A10F0B9E9 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		3506416E2DDECD9AAB00961181F7D306 /* NSObject+SYZObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SYZObject.m"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.m"; sourceTree = "<group>"; };
+		36F7E22CA226E28092A9272D5D5B0FE5 /* Pods-SYZPermissionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZPermissionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3ADFE92BA96EAB2E86C2F64D626EB1A2 /* NSNumber+SYZNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SYZNumber.m"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.m"; sourceTree = "<group>"; };
+		3D060A413795D0BDB9C7C4743A7E2608 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3ED02221FE11FDBEC3D5AF62744EDBBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		40165A567DD8A841BA67081874767794 /* Pods-SYZPermissionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZPermissionKit_Tests.modulemap"; sourceTree = "<group>"; };
+		40204C2F575690D97757868FF1AAEA95 /* Pods-SYZPermissionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		42F6F565DAA040478064C1D33FFD7EB2 /* NSDate+SYZTimeStamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZTimeStamp.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.m"; sourceTree = "<group>"; };
+		469C47D339CDCF078DCEC946F4D5266C /* NSException+SYZException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+SYZException.h"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.h"; sourceTree = "<group>"; };
+		46BBF4A2F342DF4253DB96CBBEF19ECF /* NSDate+SYZTimeStamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZTimeStamp.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.h"; sourceTree = "<group>"; };
+		4793832F5A3A2D20EADAB517C23E0A05 /* UIDevice+SYZDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SYZDevice.h"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.h"; sourceTree = "<group>"; };
+		47B7A682D54B7226038CA19620FE648B /* SYZPermissionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZPermissionKit.modulemap; sourceTree = "<group>"; };
+		47E8D3ADC8FA01988A00C545BB4AA7B1 /* NSBundle+SYZBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SYZBundle.h"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.h"; sourceTree = "<group>"; };
+		4A6F3C4EE1B9B9C034695D5952D45AE9 /* Pods-SYZPermissionKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZPermissionKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C557F2A8AB4C7918C7E4F9DD9ABF13A /* NSDateFormatter+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		4C64E251EEDD0EE0225E00D92593A863 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4DBEDC5B1669277223DFA8D34BFC9683 /* NSBundle+SYZBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SYZBundle.m"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.m"; sourceTree = "<group>"; };
+		4E1B31A971E8CFED236222CD25D699F6 /* Pods-SYZPermissionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZPermissionKit_Example.modulemap"; sourceTree = "<group>"; };
+		4E6D0ACDD00DE1D0233B6D908EB97A0A /* SYZUIBasekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZUIBasekit.modulemap; sourceTree = "<group>"; };
+		4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		541DDA46D3018E550930D0A41019899F /* NSMutableArray+SYZMutableArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SYZMutableArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.m"; sourceTree = "<group>"; };
+		5459247B06F031F6C15FF1EED993C643 /* Pods-SYZPermissionKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZPermissionKit_Example-resources.sh"; sourceTree = "<group>"; };
+		58F4155CDD7A552E3264475C492DF24E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A235A5E70BA3E6E436D736E0FDF29A3 /* NSObject+SYZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SYZObject.h"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.h"; sourceTree = "<group>"; };
+		5A5671E5028B78FC72210DA02E667DC5 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		5D231C3B44B167F4834E7C54B46FDD0B /* Pods_SYZPermissionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZPermissionKit_Tests.framework; path = "Pods-SYZPermissionKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9B178FA6733C6AD42EE5631D6B1206 /* SYZDateEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDateEnum.h; path = SYZUIBasekit/Classes/SYZDate/SYZDateEnum.h; sourceTree = "<group>"; };
+		6088D57CFEDE218163610C34C4CAB7DB /* SYZUIBasekit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIBasekit.h; path = SYZUIBasekit/Classes/SYZUIBasekit.h; sourceTree = "<group>"; };
+		61A9A312ECC549A77982665E9C93DF47 /* Pods-SYZPermissionKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZPermissionKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		6374A3851522C1AFEC27E077AE5460BF /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		659D2BE4FD7533CD9DD56B02C92C4798 /* NSSet+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		677D9D6A464094B7C99B8BF9B5E3CDE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686F440F33F3CD321F2EABDBDBCB1F6C /* SYZWeakObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZWeakObject.h; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.h; sourceTree = "<group>"; };
+		6B02970AA5FED8B587AD1CC9DD7D65F9 /* NSJSONSerialization+SYZUIBaseKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+SYZUIBaseKitAdd.m"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.m"; sourceTree = "<group>"; };
+		6CC78F82B3B92F728840E9C595AD06A3 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		6EE4B53F25CEC5E445731A575025BE11 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6F9D1BEBC2ECEB2350253529C05E9988 /* Pods-SYZPermissionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZPermissionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		711DE370E86D307C8511637E38A2CA77 /* Pods_SYZPermissionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZPermissionKit_Example.framework; path = "Pods-SYZPermissionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72161138966E90E032401712AE0CB16C /* UIApplication+SYZFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SYZFoundation.m"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.m"; sourceTree = "<group>"; };
+		797069AFCA9AB120E5D18DCBF4AA3A08 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7AA43EE83163D547DAA5D963C9C9929F /* Pods-SYZPermissionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZPermissionKit_Example-dummy.m"; sourceTree = "<group>"; };
+		7AB55C65C0587C556C0F360ECB73B38F /* NSArray+SYZArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SYZArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.h"; sourceTree = "<group>"; };
+		7ADC3A49E6CF7B4A4944093DF8FE291D /* NSException+SYZException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+SYZException.m"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.m"; sourceTree = "<group>"; };
+		7BC95EDEEAED492073025046E36E39A9 /* SYZPermissionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZPermissionKit-umbrella.h"; sourceTree = "<group>"; };
+		80A6EE0FF0FC471FBD6F7F4D9AF8A76C /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		82219113B54545019F6945A5D0338583 /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886246B1D79FB92E452695A1A67E5DE7 /* NSJSONSerialization+SYZUIBaseKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+SYZUIBaseKitAdd.h"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.h"; sourceTree = "<group>"; };
+		88762FE39BD0169C3DF959965F882D4A /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		89E83D4483CA84FAA62467B1DA7E4252 /* SYZPermissionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZPermissionManager.m; path = SYZPermissionKit/Classes/SYZPermissionManager.m; sourceTree = "<group>"; };
+		8A134565DB87EC653A1201D45C0CAB3D /* NSDictionary+SYZDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SYZDictionary.m"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.m"; sourceTree = "<group>"; };
+		8C6CFE36DE1D27624F8DF4A778047080 /* NSMutableArray+SYZMutableArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SYZMutableArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.h"; sourceTree = "<group>"; };
+		915095DA1D88E5EE567FEB7FA72D08B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948E384C1E304136717DABD2E0EA5EA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9531C2771C7C7BD08C72754A8E890662 /* NSURL+SYZURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SYZURL.h"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.h"; sourceTree = "<group>"; };
+		999E2364CE7997CF118BE220A1EF546E /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		9C3E7DF606332BA83C9E46B1C63B9EF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A276A5D893045B07E53C73895B8D2C8B /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		A64D747CD1C70AB80035E3ED1C28B9F0 /* NSData+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		A6669AE71156DF4C059B8DD857B8B3E1 /* NSScanner+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		A8F5097FEBD4C3AA710A3FEC73DC7B00 /* SYZWeakObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZWeakObject.m; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.m; sourceTree = "<group>"; };
+		B1A5578A70BABB64FE08D87E686F9065 /* NSURL+SYZURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SYZURL.m"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.m"; sourceTree = "<group>"; };
+		B9491E358D03720B33FB33B351CAB27C /* NSMutableAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		BB648FDA8872D5FF4C9C402DEEF5765C /* SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDate.h; path = SYZUIBasekit/Classes/SYZDate/SYZDate.h; sourceTree = "<group>"; };
+		BC74B6860C49FD5F498466389B845A7A /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		BC98A4AA8513C5A92CCBD5C3D836ADE0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		BD63CC514DF5241DB1666A9C744AD51F /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		C178C0D752BED013EDBA299E59630DB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33FEF87C237CB7D9758270688BA69BB /* SYZPermissionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZPermissionKit-dummy.m"; sourceTree = "<group>"; };
+		C4C60F3734F603506C75D2393EF9FA6A /* SYZPermissionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZPermissionKit.xcconfig; sourceTree = "<group>"; };
+		C62E2FB2589FA53A828E0E1892A5B881 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		CAB58131C72F809B650562B70DE0041D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CCA7C1CFB3F03CF4083EFC022FE5123F /* SYZPermissSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZPermissSetting.h; path = SYZPermissionKit/Classes/SYZPermissSetting.h; sourceTree = "<group>"; };
+		CEE0610E44A6F987E686167A71FD6C2B /* SYZTimerProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZTimerProxy.m; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.m; sourceTree = "<group>"; };
+		D0BDD01FBD57246FAACFF43AA83C8761 /* NSArray+SYZArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SYZArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.m"; sourceTree = "<group>"; };
+		D3B05CB90B04171706092C8DFD390FCD /* NSFileManager+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		D5C03821E5DCCA1E269D44F04FD8B8E0 /* NSHTTPCookieStorage+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPCookieStorage+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		D7340A5D87728C3D7458AE60B4E4D237 /* NSScanner+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScanner+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		D8E504C38933BB319C0D7CF74D8E388A /* SYZTimerProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZTimerProxy.h; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.h; sourceTree = "<group>"; };
+		D9980679457FAE0966A76AD607CAC114 /* SYZPermissionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZPermissionManager.h; path = SYZPermissionKit/Classes/SYZPermissionManager.h; sourceTree = "<group>"; };
+		DD9A30621A8C24DCBA4CD304ACCF84F6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		DE6035E4EF03542752A9CC0EFE7166A6 /* Pods-SYZPermissionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E243B5E1CF6A75385D6EF78959063D17 /* UIApplication+SYZFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SYZFoundation.h"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.h"; sourceTree = "<group>"; };
+		E42F57A8E1D7B2B3148EB97997E3899B /* NSData+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		E558097D6FFE0FEDF3892A81FAE461C4 /* NSTimer+SYZTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+SYZTimer.m"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.m"; sourceTree = "<group>"; };
+		E55E9C30AC2F1D7991BFDBCE78C58025 /* NSString+SYZString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SYZString.m"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.m"; sourceTree = "<group>"; };
+		E55F771F78EE8EAFF1F501110853B1B4 /* NSFileManager+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		E5600B95E69621E7A500F176BB950547 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8730382D19C7FD91878DD4839BA89A7 /* NSDate+SYZDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZDate.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.m"; sourceTree = "<group>"; };
+		ED2A32856D66288C4257CFB2BCD75182 /* Pods-SYZPermissionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZPermissionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0FEB4830349DE8B3084A0D87002F5FD /* NSDateFormatter+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		F144DE8555C68640A294E03EB5C4F14B /* Pods-SYZPermissionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZPermissionKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		F548B5413F7313984ADB8B2E67A28A2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5EE238800335CD3E6CC709FE24ED2B3 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		F65DFA324BFE74E29ADAC363A393587C /* NSNumber+SYZNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SYZNumber.h"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.h"; sourceTree = "<group>"; };
+		F66B62FE0B36DD4B5022D07CA76F8B27 /* SYZUIBasekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-umbrella.h"; sourceTree = "<group>"; };
+		F86242ECA2B460E4584878797EFA9017 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		FF5B258073A3256856F4C52CEB42D0E2 /* NSHTTPCookieStorage+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPCookieStorage+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B657C274386A90175E03D5BB3DF4E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFCFE6C18DEE4C47311237982D74F58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505B63650E914ED07BEB576D77A2B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F929EED771A9A525A3791037521EF5 /* Foundation.framework in Frameworks */,
+				8B608A8A289B64937DB342E91C79EC6F /* SYZUIBasekit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FC3FB1713DAC8F3A4CE6AEF868FB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C64AB25E31FD903BA3249AD500558D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA09FDABBC1BCA461F233CEA50680E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B348FF562730B41BEFDC509F3B33861 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085B2036D441ED8DD9C28212548470DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF86719B628DD1657F39542C5AE008B5 /* SYZPermissionKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		08689C04BF4517A29B96CD6848BDC406 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E73761C80ECE5587530513411D97413 /* FBSnapshotTestCase */,
+				0DCF032336948E37A6E28B068A760E8D /* SYZUIBasekit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DCF032336948E37A6E28B068A760E8D /* SYZUIBasekit */ = {
+			isa = PBXGroup;
+			children = (
+				7AB55C65C0587C556C0F360ECB73B38F /* NSArray+SYZArrayAdd.h */,
+				D0BDD01FBD57246FAACFF43AA83C8761 /* NSArray+SYZArrayAdd.m */,
+				1DF3B07FC31AB189DF1AFCE1A3C153C4 /* NSAttributedString+SYZAdditon.h */,
+				0D91F1C135E0F36AC2D5917CBC6B109B /* NSAttributedString+SYZAdditon.m */,
+				47E8D3ADC8FA01988A00C545BB4AA7B1 /* NSBundle+SYZBundle.h */,
+				4DBEDC5B1669277223DFA8D34BFC9683 /* NSBundle+SYZBundle.m */,
+				E42F57A8E1D7B2B3148EB97997E3899B /* NSData+SYZFoundationAdd.h */,
+				A64D747CD1C70AB80035E3ED1C28B9F0 /* NSData+SYZFoundationAdd.m */,
+				1CDE158846DFFF257D7267AE83D455F8 /* NSDate+SYZDate.h */,
+				E8730382D19C7FD91878DD4839BA89A7 /* NSDate+SYZDate.m */,
+				46BBF4A2F342DF4253DB96CBBEF19ECF /* NSDate+SYZTimeStamp.h */,
+				42F6F565DAA040478064C1D33FFD7EB2 /* NSDate+SYZTimeStamp.m */,
+				F0FEB4830349DE8B3084A0D87002F5FD /* NSDateFormatter+SYZFoundationAdd.h */,
+				4C557F2A8AB4C7918C7E4F9DD9ABF13A /* NSDateFormatter+SYZFoundationAdd.m */,
+				08DBD821917F89BFF7124B9AF663CD0E /* NSDictionary+SYZDictionary.h */,
+				8A134565DB87EC653A1201D45C0CAB3D /* NSDictionary+SYZDictionary.m */,
+				469C47D339CDCF078DCEC946F4D5266C /* NSException+SYZException.h */,
+				7ADC3A49E6CF7B4A4944093DF8FE291D /* NSException+SYZException.m */,
+				E55F771F78EE8EAFF1F501110853B1B4 /* NSFileManager+SYZFoundationAdd.h */,
+				D3B05CB90B04171706092C8DFD390FCD /* NSFileManager+SYZFoundationAdd.m */,
+				D5C03821E5DCCA1E269D44F04FD8B8E0 /* NSHTTPCookieStorage+SYZFoundationAdd.h */,
+				FF5B258073A3256856F4C52CEB42D0E2 /* NSHTTPCookieStorage+SYZFoundationAdd.m */,
+				886246B1D79FB92E452695A1A67E5DE7 /* NSJSONSerialization+SYZUIBaseKitAdd.h */,
+				6B02970AA5FED8B587AD1CC9DD7D65F9 /* NSJSONSerialization+SYZUIBaseKitAdd.m */,
+				8C6CFE36DE1D27624F8DF4A778047080 /* NSMutableArray+SYZMutableArrayAdd.h */,
+				541DDA46D3018E550930D0A41019899F /* NSMutableArray+SYZMutableArrayAdd.m */,
+				1CB33835523F4289F1D8AFC926C7098F /* NSMutableAttributedString+SYZAdditon.h */,
+				B9491E358D03720B33FB33B351CAB27C /* NSMutableAttributedString+SYZAdditon.m */,
+				F65DFA324BFE74E29ADAC363A393587C /* NSNumber+SYZNumber.h */,
+				3ADFE92BA96EAB2E86C2F64D626EB1A2 /* NSNumber+SYZNumber.m */,
+				5A235A5E70BA3E6E436D736E0FDF29A3 /* NSObject+SYZObject.h */,
+				3506416E2DDECD9AAB00961181F7D306 /* NSObject+SYZObject.m */,
+				A6669AE71156DF4C059B8DD857B8B3E1 /* NSScanner+SYZFoundationAdd.h */,
+				D7340A5D87728C3D7458AE60B4E4D237 /* NSScanner+SYZFoundationAdd.m */,
+				0A7E37521877AF95F57231A1A9FE854E /* NSSet+SYZFoundationAdd.h */,
+				659D2BE4FD7533CD9DD56B02C92C4798 /* NSSet+SYZFoundationAdd.m */,
+				0A309A1CB82D4B629422D392C69F6A47 /* NSString+SYZString.h */,
+				E55E9C30AC2F1D7991BFDBCE78C58025 /* NSString+SYZString.m */,
+				27BE557A71DA61AFD16A6368FAADCB1D /* NSTimer+SYZTimer.h */,
+				E558097D6FFE0FEDF3892A81FAE461C4 /* NSTimer+SYZTimer.m */,
+				9531C2771C7C7BD08C72754A8E890662 /* NSURL+SYZURL.h */,
+				B1A5578A70BABB64FE08D87E686F9065 /* NSURL+SYZURL.m */,
+				BB648FDA8872D5FF4C9C402DEEF5765C /* SYZDate.h */,
+				5E9B178FA6733C6AD42EE5631D6B1206 /* SYZDateEnum.h */,
+				D8E504C38933BB319C0D7CF74D8E388A /* SYZTimerProxy.h */,
+				CEE0610E44A6F987E686167A71FD6C2B /* SYZTimerProxy.m */,
+				6088D57CFEDE218163610C34C4CAB7DB /* SYZUIBasekit.h */,
+				686F440F33F3CD321F2EABDBDBCB1F6C /* SYZWeakObject.h */,
+				A8F5097FEBD4C3AA710A3FEC73DC7B00 /* SYZWeakObject.m */,
+				E243B5E1CF6A75385D6EF78959063D17 /* UIApplication+SYZFoundation.h */,
+				72161138966E90E032401712AE0CB16C /* UIApplication+SYZFoundation.m */,
+				4793832F5A3A2D20EADAB517C23E0A05 /* UIDevice+SYZDevice.h */,
+				23FDDC128B5379E965AA493523073DD7 /* UIDevice+SYZDevice.m */,
+				BA12491CEA4F73F005E4365215B4E6AD /* Support Files */,
+			);
+			name = SYZUIBasekit;
+			path = SYZUIBasekit;
+			sourceTree = "<group>";
+		};
+		185CA24DE38C9BC753941A5A6E455A6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A9F33C9FE3DBEB8162A9725A88EDE1E /* Pods-SYZPermissionKit_Example */,
+				D84BEA62811095106160FD11AA94DEFC /* Pods-SYZPermissionKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FA443DA95B510E0379D473672FF320A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3157BC133A307C672EED127A10F0B9E9 /* FBSnapshotTestCase.modulemap */,
+				C62E2FB2589FA53A828E0E1892A5B881 /* FBSnapshotTestCase.xcconfig */,
+				BC98A4AA8513C5A92CCBD5C3D836ADE0 /* FBSnapshotTestCase-dummy.m */,
+				F86242ECA2B460E4584878797EFA9017 /* FBSnapshotTestCase-prefix.pch */,
+				F5EE238800335CD3E6CC709FE24ED2B3 /* FBSnapshotTestCase-umbrella.h */,
+				948E384C1E304136717DABD2E0EA5EA1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		44167EDDB3BDC059E6927F442D42EE4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5600B95E69621E7A500F176BB950547 /* Info.plist */,
+				47B7A682D54B7226038CA19620FE648B /* SYZPermissionKit.modulemap */,
+				C4C60F3734F603506C75D2393EF9FA6A /* SYZPermissionKit.xcconfig */,
+				C33FEF87C237CB7D9758270688BA69BB /* SYZPermissionKit-dummy.m */,
+				1D5CCEF691FE689138B37B8F7EC441B0 /* SYZPermissionKit-prefix.pch */,
+				7BC95EDEEAED492073025046E36E39A9 /* SYZPermissionKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYZPermissionKit";
+			sourceTree = "<group>";
+		};
+		4A5B60E031200876BA241A06CBB034A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F4155CDD7A552E3264475C492DF24E /* FBSnapshotTestCase.framework */,
+				711DE370E86D307C8511637E38A2CA77 /* Pods_SYZPermissionKit_Example.framework */,
+				5D231C3B44B167F4834E7C54B46FDD0B /* Pods_SYZPermissionKit_Tests.framework */,
+				2EA0056119DB65EFB2F41585A17B3A60 /* SYZPermissionKit.framework */,
+				18C3346B2EFA6989A95A9512DE0399E0 /* SYZUIBasekit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A9F33C9FE3DBEB8162A9725A88EDE1E /* Pods-SYZPermissionKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C178C0D752BED013EDBA299E59630DB8 /* Info.plist */,
+				4E1B31A971E8CFED236222CD25D699F6 /* Pods-SYZPermissionKit_Example.modulemap */,
+				ED2A32856D66288C4257CFB2BCD75182 /* Pods-SYZPermissionKit_Example-acknowledgements.markdown */,
+				6F9D1BEBC2ECEB2350253529C05E9988 /* Pods-SYZPermissionKit_Example-acknowledgements.plist */,
+				7AA43EE83163D547DAA5D963C9C9929F /* Pods-SYZPermissionKit_Example-dummy.m */,
+				2078824D041B8B48DC3208DCFF30A269 /* Pods-SYZPermissionKit_Example-frameworks.sh */,
+				5459247B06F031F6C15FF1EED993C643 /* Pods-SYZPermissionKit_Example-resources.sh */,
+				F144DE8555C68640A294E03EB5C4F14B /* Pods-SYZPermissionKit_Example-umbrella.h */,
+				1AFD8BBBBE951AAC3074589E6BB630A3 /* Pods-SYZPermissionKit_Example.debug.xcconfig */,
+				284CFCC8B2980335051C02390206574F /* Pods-SYZPermissionKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SYZPermissionKit_Example";
+			path = "Target Support Files/Pods-SYZPermissionKit_Example";
+			sourceTree = "<group>";
+		};
+		6DB1077B8B6BEBE3447EF00AADFC3472 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3D060A413795D0BDB9C7C4743A7E2608 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		79213D7100598FCA9E02D85FC0DEBD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82219113B54545019F6945A5D0338583 /* SYZUIBasekit.framework */,
+				7D8F0CEAF02B2992A3879627FBB3A5F5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79BD1CC19132CB521B7242DC9FF4167B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F548B5413F7313984ADB8B2E67A28A2D /* LICENSE */,
+				3ED02221FE11FDBEC3D5AF62744EDBBE /* README.md */,
+				0F9B4E011A4A646669966F3E692A31C1 /* SYZPermissionKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D8F0CEAF02B2992A3879627FBB3A5F5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */,
+				075FA9E6507B8FAEC8E63BE7B0999B01 /* QuartzCore.framework */,
+				CAB58131C72F809B650562B70DE0041D /* UIKit.framework */,
+				915095DA1D88E5EE567FEB7FA72D08B8 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				085B2036D441ED8DD9C28212548470DA /* Development Pods */,
+				79213D7100598FCA9E02D85FC0DEBD13 /* Frameworks */,
+				08689C04BF4517A29B96CD6848BDC406 /* Pods */,
+				4A5B60E031200876BA241A06CBB034A6 /* Products */,
+				185CA24DE38C9BC753941A5A6E455A6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E73761C80ECE5587530513411D97413 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				D9A498B901AF5396FDE201CF8A4660CB /* Core */,
+				1FA443DA95B510E0379D473672FF320A /* Support Files */,
+				6DB1077B8B6BEBE3447EF00AADFC3472 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		AF86719B628DD1657F39542C5AE008B5 /* SYZPermissionKit */ = {
+			isa = PBXGroup;
+			children = (
+				31284C754D2986056D4F0DF73914ABB1 /* SNHPermissionKit.h */,
+				D9980679457FAE0966A76AD607CAC114 /* SYZPermissionManager.h */,
+				89E83D4483CA84FAA62467B1DA7E4252 /* SYZPermissionManager.m */,
+				CCA7C1CFB3F03CF4083EFC022FE5123F /* SYZPermissSetting.h */,
+				26E566735FA78CE327F0AF1939CA5E28 /* SYZPermissSetting.m */,
+				79BD1CC19132CB521B7242DC9FF4167B /* Pod */,
+				44167EDDB3BDC059E6927F442D42EE4F /* Support Files */,
+			);
+			name = SYZPermissionKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA12491CEA4F73F005E4365215B4E6AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E7DF606332BA83C9E46B1C63B9EF0 /* Info.plist */,
+				4E6D0ACDD00DE1D0233B6D908EB97A0A /* SYZUIBasekit.modulemap */,
+				21E48C282BE498029DC315DA6A34C8E5 /* SYZUIBasekit.xcconfig */,
+				200076B7DA86D45AC17F4762529B1D07 /* SYZUIBasekit-dummy.m */,
+				219B7938F42D1D2F6FDA863922B2A5AE /* SYZUIBasekit-prefix.pch */,
+				F66B62FE0B36DD4B5022D07CA76F8B27 /* SYZUIBasekit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYZUIBasekit";
+			sourceTree = "<group>";
+		};
+		D84BEA62811095106160FD11AA94DEFC /* Pods-SYZPermissionKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				677D9D6A464094B7C99B8BF9B5E3CDE8 /* Info.plist */,
+				40165A567DD8A841BA67081874767794 /* Pods-SYZPermissionKit_Tests.modulemap */,
+				36F7E22CA226E28092A9272D5D5B0FE5 /* Pods-SYZPermissionKit_Tests-acknowledgements.markdown */,
+				0B5B145F984D914420A5B5978D9130FB /* Pods-SYZPermissionKit_Tests-acknowledgements.plist */,
+				4A6F3C4EE1B9B9C034695D5952D45AE9 /* Pods-SYZPermissionKit_Tests-dummy.m */,
+				06B86E787A0F3378C6FE20120E2738DB /* Pods-SYZPermissionKit_Tests-frameworks.sh */,
+				61A9A312ECC549A77982665E9C93DF47 /* Pods-SYZPermissionKit_Tests-resources.sh */,
+				268F253AAF4BCFB63F3DCBE6CEDE25E8 /* Pods-SYZPermissionKit_Tests-umbrella.h */,
+				DE6035E4EF03542752A9CC0EFE7166A6 /* Pods-SYZPermissionKit_Tests.debug.xcconfig */,
+				40204C2F575690D97757868FF1AAEA95 /* Pods-SYZPermissionKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYZPermissionKit_Tests";
+			path = "Target Support Files/Pods-SYZPermissionKit_Tests";
+			sourceTree = "<group>";
+		};
+		D9A498B901AF5396FDE201CF8A4660CB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6CC78F82B3B92F728840E9C595AD06A3 /* FBSnapshotTestCase.h */,
+				A276A5D893045B07E53C73895B8D2C8B /* FBSnapshotTestCase.m */,
+				797069AFCA9AB120E5D18DCBF4AA3A08 /* FBSnapshotTestCasePlatform.h */,
+				6EE4B53F25CEC5E445731A575025BE11 /* FBSnapshotTestCasePlatform.m */,
+				80A6EE0FF0FC471FBD6F7F4D9AF8A76C /* FBSnapshotTestController.h */,
+				2D4EFDF4E47A03CF23094F8B0AE5313A /* FBSnapshotTestController.m */,
+				88762FE39BD0169C3DF959965F882D4A /* UIApplication+StrictKeyWindow.h */,
+				5A5671E5028B78FC72210DA02E667DC5 /* UIApplication+StrictKeyWindow.m */,
+				999E2364CE7997CF118BE220A1EF546E /* UIImage+Compare.h */,
+				BD63CC514DF5241DB1666A9C744AD51F /* UIImage+Compare.m */,
+				DD9A30621A8C24DCBA4CD304ACCF84F6 /* UIImage+Diff.h */,
+				4C64E251EEDD0EE0225E00D92593A863 /* UIImage+Diff.m */,
+				6374A3851522C1AFEC27E077AE5460BF /* UIImage+Snapshot.h */,
+				BC74B6860C49FD5F498466389B845A7A /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		393731410A652F2CB972405B33BB69B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DA87EF693A99B723C7C33546499DD3 /* NSArray+SYZArrayAdd.h in Headers */,
+				CCF9B4AE2BB7F1855CC38B58C77089E3 /* NSAttributedString+SYZAdditon.h in Headers */,
+				3AF6F10740DC1901E3FA24D571D3811A /* NSBundle+SYZBundle.h in Headers */,
+				0B775C1563690F0D56CF9F42F22DA84C /* NSData+SYZFoundationAdd.h in Headers */,
+				9039E4D2B9DF52EFC58890B380C2310D /* NSDate+SYZDate.h in Headers */,
+				F81D207EE5462DE04D283DCC2D690CFE /* NSDate+SYZTimeStamp.h in Headers */,
+				D2C6E71EEB8E92B5A363AAE6282366E9 /* NSDateFormatter+SYZFoundationAdd.h in Headers */,
+				FDCA626A60DAD83E654EE0FBEE52C96A /* NSDictionary+SYZDictionary.h in Headers */,
+				936CF5CC2D292505076049D6736946ED /* NSException+SYZException.h in Headers */,
+				92C6C3BDCE1AA52A49920849A46AA521 /* NSFileManager+SYZFoundationAdd.h in Headers */,
+				B2F08147F9049FC96939042B3767B510 /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */,
+				598001678804B5248CB266ED73FB38FA /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */,
+				39C54D700FFBC51C7C73D279D4416348 /* NSMutableArray+SYZMutableArrayAdd.h in Headers */,
+				BBE03CF8B2EAEC95CF18AA32CCF0B2F8 /* NSMutableAttributedString+SYZAdditon.h in Headers */,
+				76C0D1B0C0FBCE29ED0AC5D250980767 /* NSNumber+SYZNumber.h in Headers */,
+				9C34B5BC9A229AA398C47A26F1149D69 /* NSObject+SYZObject.h in Headers */,
+				8F87748250593B9683E27AD1B4F4B930 /* NSScanner+SYZFoundationAdd.h in Headers */,
+				9665E3E511CBE593D0164C9BB0A0AEAE /* NSSet+SYZFoundationAdd.h in Headers */,
+				C3AAFDED0B820F848D823FC893917600 /* NSString+SYZString.h in Headers */,
+				BAEDC075189E2F55700D7087280D5BBF /* NSTimer+SYZTimer.h in Headers */,
+				B3B5334D17F1D033F92D030F875C9672 /* NSURL+SYZURL.h in Headers */,
+				2644E060EE0EB8D7D94D45C5CF8436FC /* SYZDate.h in Headers */,
+				965057FDEC2F76F54B8D984E357EA428 /* SYZDateEnum.h in Headers */,
+				81CB0B843F72F19BCCE73FBAFA6E6F5D /* SYZTimerProxy.h in Headers */,
+				87B653C2130C194CB9D5F7C701DE3F60 /* SYZUIBasekit-umbrella.h in Headers */,
+				70D0BCA72C1F34167D8AA213B9C5D139 /* SYZUIBasekit.h in Headers */,
+				5BE17F2011BEA98AC1CBEA26C4923DD1 /* SYZWeakObject.h in Headers */,
+				89E98EA0058B093286B158BB724992DE /* UIApplication+SYZFoundation.h in Headers */,
+				36C5B182BDBAFCDC6A60BCF01ECC288C /* UIDevice+SYZDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0847FFC067F6629CE96AB1C348EB92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A3C97D23C03B159731BC7517188E7 /* Pods-SYZPermissionKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29E8619CBEDDDFEEA437D65F1AFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34D8788D97FD31C00161D7B56F5A1E6 /* SNHPermissionKit.h in Headers */,
+				DACCFF57E7F5CC2989F0144E4A0EA0DA /* SYZPermissionKit-umbrella.h in Headers */,
+				771EB0CBCC9888E33258916EFF576EF8 /* SYZPermissionManager.h in Headers */,
+				3768E136F8E55459F0A6B4CF637F0A81 /* SYZPermissSetting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5794416A8E3010573DE840214B5869D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C632E2F995B99D5F49E99A03C47945CA /* Pods-SYZPermissionKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 58F4155CDD7A552E3264475C492DF24E /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BFBBCE46D5B125DB62D8BA42DD796E0 /* Pods-SYZPermissionKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9191626B0CA2084A1C6E70FD074A3648 /* Build configuration list for PBXNativeTarget "Pods-SYZPermissionKit_Tests" */;
+			buildPhases = (
+				15125679DA3052023E8F60192F7AEA13 /* Sources */,
+				97FC3FB1713DAC8F3A4CE6AEF868FB88 /* Frameworks */,
+				7E0847FFC067F6629CE96AB1C348EB92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F798B3289D9C4D6862DD349ABDBE8DCC /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZPermissionKit_Tests";
+			productName = "Pods-SYZPermissionKit_Tests";
+			productReference = 5D231C3B44B167F4834E7C54B46FDD0B /* Pods_SYZPermissionKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AC092C29B93678CE228501323452FB9 /* SYZUIBasekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AF7728730A429CB0963F6728166513 /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */;
+			buildPhases = (
+				07060CF604FA93457EA595ECE5E1F118 /* Sources */,
+				7B657C274386A90175E03D5BB3DF4E50 /* Frameworks */,
+				393731410A652F2CB972405B33BB69B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYZUIBasekit;
+			productName = SYZUIBasekit;
+			productReference = 18C3346B2EFA6989A95A9512DE0399E0 /* SYZUIBasekit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B1E7C4F5297547289DEAF5D0C6C9FE4 /* Pods-SYZPermissionKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E437A1CCF5EC7392B0A0D063ED361E /* Build configuration list for PBXNativeTarget "Pods-SYZPermissionKit_Example" */;
+			buildPhases = (
+				F0FA2D582777685815BD040F1B3A31F0 /* Sources */,
+				FA09FDABBC1BCA461F233CEA50680E91 /* Frameworks */,
+				C5794416A8E3010573DE840214B5869D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C727D160F389279EB5794ABDBF2E08 /* PBXTargetDependency */,
+				092ABA728B1F819B6FB102B0024778DA /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZPermissionKit_Example";
+			productName = "Pods-SYZPermissionKit_Example";
+			productReference = 711DE370E86D307C8511637E38A2CA77 /* Pods_SYZPermissionKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A302F00B66A27E50F55A1876CDD1ABA0 /* SYZPermissionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703857961925CDE5AA41AA7C47322389 /* Build configuration list for PBXNativeTarget "SYZPermissionKit" */;
+			buildPhases = (
+				9208C777F1C95E41A76B6F99E49E0FA3 /* Sources */,
+				8505B63650E914ED07BEB576D77A2B8A /* Frameworks */,
+				846F29E8619CBEDDDFEEA437D65F1AFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383229FECBE9EA437B7B9F4EBC0A2C7E /* PBXTargetDependency */,
+			);
+			name = SYZPermissionKit;
+			productName = SYZPermissionKit;
+			productReference = 2EA0056119DB65EFB2F41585A17B3A60 /* SYZPermissionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A5B60E031200876BA241A06CBB034A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				9B1E7C4F5297547289DEAF5D0C6C9FE4 /* Pods-SYZPermissionKit_Example */,
+				7BFBBCE46D5B125DB62D8BA42DD796E0 /* Pods-SYZPermissionKit_Tests */,
+				A302F00B66A27E50F55A1876CDD1ABA0 /* SYZPermissionKit */,
+				9AC092C29B93678CE228501323452FB9 /* SYZUIBasekit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07060CF604FA93457EA595ECE5E1F118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB4117A9EEDD474AB0866E0E48EEC1D /* NSArray+SYZArrayAdd.m in Sources */,
+				0DE2E4746AE3210A8745C9E574D13874 /* NSAttributedString+SYZAdditon.m in Sources */,
+				89A7C6821A1CD8E676CC807E6382E448 /* NSBundle+SYZBundle.m in Sources */,
+				A005B0A177EB0BCC0D80410A7F17D131 /* NSData+SYZFoundationAdd.m in Sources */,
+				BE471A96FEB4CA69470FDFB95309D8B9 /* NSDate+SYZDate.m in Sources */,
+				48C7362E9E0D20423FBC9273553B641E /* NSDate+SYZTimeStamp.m in Sources */,
+				0D06C924050C893836A93AAA27385EAC /* NSDateFormatter+SYZFoundationAdd.m in Sources */,
+				B204E0352B86F3B44BFA78DC1996BB2E /* NSDictionary+SYZDictionary.m in Sources */,
+				DCECD35AF91E0E3EAFE2147A0BC3488F /* NSException+SYZException.m in Sources */,
+				ED47F4D6057A67F2C36B307900A53011 /* NSFileManager+SYZFoundationAdd.m in Sources */,
+				D57227CF120ABCC986B73AF40E2D92AF /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */,
+				FD8FCAA98E07F864E094AFA2D19C63A5 /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */,
+				620BAD64534C3D562CE9AB92601F413B /* NSMutableArray+SYZMutableArrayAdd.m in Sources */,
+				80792A386D58B9CF0165BE86C13CFC2E /* NSMutableAttributedString+SYZAdditon.m in Sources */,
+				CDA80237DB3B8A2E6E9FFD01F4EEAC70 /* NSNumber+SYZNumber.m in Sources */,
+				60DBA77C1D60D67CD6ACC7B6A5C762F6 /* NSObject+SYZObject.m in Sources */,
+				692C579B927CB2F205C215FC965162C1 /* NSScanner+SYZFoundationAdd.m in Sources */,
+				3A0E3FC03AB24210F98D2C6B468893BE /* NSSet+SYZFoundationAdd.m in Sources */,
+				B7D330BB2DF801A7C264D5BD02AA9264 /* NSString+SYZString.m in Sources */,
+				10192754FD90CF3BAE6C15D9EF50AD13 /* NSTimer+SYZTimer.m in Sources */,
+				8399F18CAFC330B0A3407B4326367A4B /* NSURL+SYZURL.m in Sources */,
+				0604B8A39450425A907834F57051B270 /* SYZTimerProxy.m in Sources */,
+				D9AA10E4E7A0F228681917DC39004E5F /* SYZUIBasekit-dummy.m in Sources */,
+				8A18FCA85EA7AE34A5A915AD84307686 /* SYZWeakObject.m in Sources */,
+				A4BB6561090390CD255E53137FD90534 /* UIApplication+SYZFoundation.m in Sources */,
+				FA92E262F3757BEBAB52E52A6693AB8A /* UIDevice+SYZDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15125679DA3052023E8F60192F7AEA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC4859078067AAC0B902E25E67483CD /* Pods-SYZPermissionKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9208C777F1C95E41A76B6F99E49E0FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D82F2F10B7BFAD837371679A36DC247 /* SYZPermissionKit-dummy.m in Sources */,
+				9279ED2B3484FC79BB709F63880F6FEF /* SYZPermissionManager.m in Sources */,
+				F995787F5EB2FE1468177AD1576E551C /* SYZPermissSetting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FA2D582777685815BD040F1B3A31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048A635AE8C2D309F14C3BE9EC383F0 /* Pods-SYZPermissionKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092ABA728B1F819B6FB102B0024778DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 9AC092C29B93678CE228501323452FB9 /* SYZUIBasekit */;
+			targetProxy = F240ACE344636BA06599A5B7F8A963CC /* PBXContainerItemProxy */;
+		};
+		383229FECBE9EA437B7B9F4EBC0A2C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 9AC092C29B93678CE228501323452FB9 /* SYZUIBasekit */;
+			targetProxy = 284B98766D6EDB2A71A4C7BFAFFBEB0E /* PBXContainerItemProxy */;
+		};
+		A2C727D160F389279EB5794ABDBF2E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZPermissionKit;
+			target = A302F00B66A27E50F55A1876CDD1ABA0 /* SYZPermissionKit */;
+			targetProxy = 9A788ED94AC05449930C11A4E9FBD1F3 /* PBXContainerItemProxy */;
+		};
+		F798B3289D9C4D6862DD349ABDBE8DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = 75FAC5CB12FE0D8E58FF3DC317D0F785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0564AD532CB1C8C2C562C33D8C0761E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFD8BBBBE951AAC3074589E6BB630A3 /* Pods-SYZPermissionKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZPermissionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZPermissionKit_Example/Pods-SYZPermissionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZPermissionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DD8D1C7D22073849800D713AD5E1ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40204C2F575690D97757868FF1AAEA95 /* Pods-SYZPermissionKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZPermissionKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZPermissionKit_Tests/Pods-SYZPermissionKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZPermissionKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55EF326AC8235D13E4647EDB23CE6BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C60F3734F603506C75D2393EF9FA6A /* SYZPermissionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZPermissionKit/SYZPermissionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZPermissionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZPermissionKit/SYZPermissionKit.modulemap";
+				PRODUCT_NAME = SYZPermissionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		572AF2B74CDB9F4CB2195FF84B511506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E48C282BE498029DC315DA6A34C8E5 /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E2343ADCB960A34BABD7291D6C9BFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E48C282BE498029DC315DA6A34C8E5 /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		801183B25AC6D13A9DDBA8FAD86EA5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6035E4EF03542752A9CC0EFE7166A6 /* Pods-SYZPermissionKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZPermissionKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZPermissionKit_Tests/Pods-SYZPermissionKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZPermissionKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE3AEDE95661061C26DF7374D36F4E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C60F3734F603506C75D2393EF9FA6A /* SYZPermissionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZPermissionKit/SYZPermissionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZPermissionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZPermissionKit/SYZPermissionKit.modulemap";
+				PRODUCT_NAME = SYZPermissionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62E2FB2589FA53A828E0E1892A5B881 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C99A6679429620FED2A4B8DE798DE101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284CFCC8B2980335051C02390206574F /* Pods-SYZPermissionKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZPermissionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZPermissionKit_Example/Pods-SYZPermissionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZPermissionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62E2FB2589FA53A828E0E1892A5B881 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AF7728730A429CB0963F6728166513 /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2343ADCB960A34BABD7291D6C9BFC9 /* Debug */,
+				572AF2B74CDB9F4CB2195FF84B511506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703857961925CDE5AA41AA7C47322389 /* Build configuration list for PBXNativeTarget "SYZPermissionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55EF326AC8235D13E4647EDB23CE6BEA /* Debug */,
+				AE3AEDE95661061C26DF7374D36F4E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E437A1CCF5EC7392B0A0D063ED361E /* Build configuration list for PBXNativeTarget "Pods-SYZPermissionKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0564AD532CB1C8C2C562C33D8C0761E7 /* Debug */,
+				C99A6679429620FED2A4B8DE798DE101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9191626B0CA2084A1C6E70FD074A3648 /* Build configuration list for PBXNativeTarget "Pods-SYZPermissionKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801183B25AC6D13A9DDBA8FAD86EA5C5 /* Debug */,
+				4DD8D1C7D22073849800D713AD5E1ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA992D818C17C13A97E42D0734BF7D3 /* Debug */,
+				B2E52370F534DFE0FF7634F754F4F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

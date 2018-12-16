@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SYZPermissionKit (0.1.0):
+    - SYZUIBasekit
+  - SYZUIBasekit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SYZPermissionKit (from `../`)
+
+EXTERNAL SOURCES:
+  SYZPermissionKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SYZPermissionKit: 9a3f384cdb8554121c1e6351d8740a4f16009ef4
+  SYZUIBasekit: aa848bd9463664fa6ab3829c6e3bd4a9f259f09a
+
+PODFILE CHECKSUM: b8c6f345a812be8d42f9cbd1dcb223ec9ff70140
+
+COCOAPODS: 1.4.0
