@@ -149,11 +149,11 @@
 		0B5B145F984D914420A5B5978D9130FB /* Pods-SYZPermissionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZPermissionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D7389949AC32FBC23B48ED96951ED00 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		0F65AB1976D51B75FA36FA289F6D3A69 /* NSObject+SYZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SYZObject.h"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.h"; sourceTree = "<group>"; };
-		0F9B4E011A4A646669966F3E692A31C1 /* SYZPermissionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYZPermissionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0F9B4E011A4A646669966F3E692A31C1 /* SYZPermissionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SYZPermissionKit.podspec; sourceTree = "<group>"; };
 		11E4FDC835D67AD3AAE5CBC86413F629 /* NSDateFormatter+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.h"; sourceTree = "<group>"; };
 		12161E65AD2D16BFA854BD8ABA31A90C /* NSHTTPCookieStorage+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPCookieStorage+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.h"; sourceTree = "<group>"; };
 		123615BDD9BABD55705E5011C221E234 /* SYZTimerProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZTimerProxy.m; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.m; sourceTree = "<group>"; };
-		18C3346B2EFA6989A95A9512DE0399E0 /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZUIBasekit.framework; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3346B2EFA6989A95A9512DE0399E0 /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A377B4DDCC69183C4BAF2779A492B19 /* NSSet+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.m"; sourceTree = "<group>"; };
 		1AFD8BBBBE951AAC3074589E6BB630A3 /* Pods-SYZPermissionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1CE3F8B8B779F3B775B0B6C3CF662B19 /* NSFileManager+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.h"; sourceTree = "<group>"; };
@@ -166,14 +166,14 @@
 		284CFCC8B2980335051C02390206574F /* Pods-SYZPermissionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2860A21DD19556E0A81C4236B4C88832 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		2AB41C4FBD4B13555C295E7EF42E57E0 /* SYZUIBasekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZUIBasekit-dummy.m"; sourceTree = "<group>"; };
-		2EA0056119DB65EFB2F41585A17B3A60 /* SYZPermissionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZPermissionKit.framework; path = SYZPermissionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA0056119DB65EFB2F41585A17B3A60 /* SYZPermissionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYZPermissionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA80E026AFC46953AEBA5EDDD5A581D /* NSMutableArray+SYZMutableArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SYZMutableArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.h"; sourceTree = "<group>"; };
 		3017BE59E09EB70A6C084BF2051D3ACA /* SYZUIBasekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZUIBasekit.xcconfig; sourceTree = "<group>"; };
 		31026FCD820B78F817F6656C2C8FCD8F /* NSTimer+SYZTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+SYZTimer.h"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.h"; sourceTree = "<group>"; };
 		31284C754D2986056D4F0DF73914ABB1 /* SNHPermissionKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNHPermissionKit.h; path = SYZPermissionKit/Classes/SNHPermissionKit.h; sourceTree = "<group>"; };
 		320D6BB67BB54F216265087E51A5FC2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F7E22CA226E28092A9272D5D5B0FE5 /* Pods-SYZPermissionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZPermissionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3ED02221FE11FDBEC3D5AF62744EDBBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3ED02221FE11FDBEC3D5AF62744EDBBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F54865D8B51CCDA758B621F3B9FABD5 /* SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDate.h; path = SYZUIBasekit/Classes/SYZDate/SYZDate.h; sourceTree = "<group>"; };
 		40165A567DD8A841BA67081874767794 /* Pods-SYZPermissionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZPermissionKit_Tests.modulemap"; sourceTree = "<group>"; };
 		40204C2F575690D97757868FF1AAEA95 /* Pods-SYZPermissionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZPermissionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,9 +186,9 @@
 		4FEC3152CE3E07F56CF15972EB68D4DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5459247B06F031F6C15FF1EED993C643 /* Pods-SYZPermissionKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZPermissionKit_Example-resources.sh"; sourceTree = "<group>"; };
 		58AFE4019FE9140809F7CB885674AB58 /* UIDevice+SYZDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SYZDevice.h"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.h"; sourceTree = "<group>"; };
-		58F4155CDD7A552E3264475C492DF24E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F4155CDD7A552E3264475C492DF24E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59147B2C7279DAE57D8495E575D0C251 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		5D231C3B44B167F4834E7C54B46FDD0B /* Pods_SYZPermissionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZPermissionKit_Tests.framework; path = "Pods-SYZPermissionKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D231C3B44B167F4834E7C54B46FDD0B /* Pods_SYZPermissionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYZPermissionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED1C13E472E4FABD02B700FC69ACBF7 /* NSException+SYZException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+SYZException.h"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.h"; sourceTree = "<group>"; };
 		61A9A312ECC549A77982665E9C93DF47 /* Pods-SYZPermissionKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZPermissionKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		676E64EE567484E611FC53D28B3291D3 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		6BDD3094F16C558252AF2052B3A83D56 /* NSNumber+SYZNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SYZNumber.m"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.m"; sourceTree = "<group>"; };
 		6D01FCDCFCF36C86E6DCA3A9EF8F26D9 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6F9D1BEBC2ECEB2350253529C05E9988 /* Pods-SYZPermissionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZPermissionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		711DE370E86D307C8511637E38A2CA77 /* Pods_SYZPermissionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZPermissionKit_Example.framework; path = "Pods-SYZPermissionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711DE370E86D307C8511637E38A2CA77 /* Pods_SYZPermissionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYZPermissionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A26A6889B59C2CA9C750E93F68C265 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		72D6F5C9A629857A0D607AF4FA8F599C /* NSData+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.h"; sourceTree = "<group>"; };
 		74ED0C5740658C55C59F5ADC2797EC45 /* NSData+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.m"; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 		8D76A9961852BD78D6D1A640BA76CAB7 /* NSString+SYZString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SYZString.h"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.h"; sourceTree = "<group>"; };
 		90F3CCECEAE443DA188814191A74C1A5 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		915095DA1D88E5EE567FEB7FA72D08B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97406291C32015C0D53AFFD4BDD3E045 /* NSSet+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.h"; sourceTree = "<group>"; };
 		9A8B9C54F281CB5B0F7F86B1E85A4D90 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		A1D8E8B2490F43D3EC1A5F125989B83A /* NSDate+SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZDate.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.h"; sourceTree = "<group>"; };
@@ -255,7 +255,7 @@
 		F10E0668035E5E42EEEC06ECEF714E1B /* NSDictionary+SYZDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SYZDictionary.h"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.h"; sourceTree = "<group>"; };
 		F144DE8555C68640A294E03EB5C4F14B /* Pods-SYZPermissionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZPermissionKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		F14898679DC258DBE356CACE718584FF /* SYZUIBasekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-prefix.pch"; sourceTree = "<group>"; };
-		F548B5413F7313984ADB8B2E67A28A2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F548B5413F7313984ADB8B2E67A28A2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F95651940A59DD277EBD427A3A7DDD41 /* SYZDateEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDateEnum.h; path = SYZUIBasekit/Classes/SYZDate/SYZDateEnum.h; sourceTree = "<group>"; };
 		F994DF33E4260FE156342DAEA362D9B3 /* NSMutableArray+SYZMutableArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SYZMutableArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.m"; sourceTree = "<group>"; };
 		FDB7EA9101906A873D3A094C83AC0650 /* NSBundle+SYZBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SYZBundle.h"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.h"; sourceTree = "<group>"; };
@@ -533,7 +533,6 @@
 				2446CB967AAA144DAEFA7F624BACE9DC /* UIDevice+SYZDevice.m */,
 				50D1B052E3BF7DB3B4BAF49D0F61DC83 /* Support Files */,
 			);
-			name = SYZUIBasekit;
 			path = SYZUIBasekit;
 			sourceTree = "<group>";
 		};
@@ -544,7 +543,6 @@
 				486060DFD7CC8D94B4EDABAB0CFF799D /* Support Files */,
 				BEE4E847687FD3AD36827DD6D40839D4 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
