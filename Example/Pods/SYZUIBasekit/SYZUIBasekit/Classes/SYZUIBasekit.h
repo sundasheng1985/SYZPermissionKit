@@ -32,6 +32,8 @@
     #import <SYZUIBasekit/UIApplication+SYZFoundation.h>
     #import <SYZUIBasekit/NSMutableAttributedString+SYZAdditon.h>
     #import <SYZUIBasekit/NSScanner+SYZFoundationAdd.h>
+    #import <SYZUIBasekit/SYZFoundationMacros.h>
+    #import <SYZUIBasekit/SYZFoundationShorthandMarcos.h>
 #else
     #import <NSObject+SYZObject.h>
     #import <NSNumber+SYZNumber.h>
@@ -55,6 +57,8 @@
     #import <NSAttributedString+SYZAdditon.h>
     #import <NSMutableAttributedString+SYZAdditon.h>
     #import <NSScanner+SYZFoundationAdd.h>
+    #import <SYZFoundationMacros.h>
+    #import <SYZFoundationShorthandMarcos.h>
 #endif
 
 #endif /* SYZUIBasekit_h */

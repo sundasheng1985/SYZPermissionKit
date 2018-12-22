@@ -27,6 +27,8 @@
 #import "NSDictionary+SYZDictionary.h"
 #import "NSException+SYZException.h"
 #import "NSFileManager+SYZFoundationAdd.h"
+#import "SYZFoundationMacros.h"
+#import "SYZFoundationShorthandMarcos.h"
 #import "NSJSONSerialization+SYZUIBaseKitAdd.h"
 #import "NSNumber+SYZNumber.h"
 #import "NSObject+SYZObject.h"

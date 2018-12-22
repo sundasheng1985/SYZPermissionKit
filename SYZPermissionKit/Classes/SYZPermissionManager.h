@@ -31,7 +31,7 @@ typedef void (^SYZPermissionBlock)(SYZPermissionStatus status);
 + (void)requestAudioWithHandle:(SYZPermissionBlock)handle;
 
 /** 定位权限 */
-//+ (void)requestLocationWithHandle:(SYZPermissionBlock)handle;
++ (void)requestLocationWithHandle:(SYZPermissionBlock)handle;
 
 /** 日历权限 */
 + (void)requestEventWithHandle:(SYZPermissionBlock)handle;

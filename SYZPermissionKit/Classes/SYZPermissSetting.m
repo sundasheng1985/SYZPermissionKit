@@ -9,5 +9,5 @@
 
 @implementation SYZPermissSetting
 
-//SYZSingletonImplementation(SYZPermissSetting);
+SYZSingletonImplementation(SYZPermissSetting);
 @end

@@ -131,20 +131,19 @@ NSString * SYZPermissTypeName(SYZPermissType type) {
 
 /** 定位权限 */
 + (void)requestLocationWithHandle:(SYZPermissionBlock)handle {
-    /*
-     if ([CLLocationManager locationServicesEnabled]) {
-     SYZPermissionManager *permission = [SYZPermissionManager new];
-     permission.manager = [CLLocationManager new];
-     [permission.manager requestWhenInUseAuthorization];
-     }
-     
-     CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
-     if (status == kCLAuthorizationStatusAuthorizedAlways || status == kCLAuthorizationStatusAuthorizedWhenInUse) {
-     [self _handle:handle status:SYZPermissionStatusAuthorized];
-     } else {
-     [self _handle:handle status:SYZPermissionStatusRestricted];
-     }
-     */
+    
+//     if ([CLLocationManager locationServicesEnabled]) {
+//     SYZPermissionManager *permission = [SYZPermissionManager new];
+//     permission.manager = [CLLocationManager new];
+//     [permission.manager requestWhenInUseAuthorization];
+//     }
+//     
+//     CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+//     if (status == kCLAuthorizationStatusAuthorizedAlways || status == kCLAuthorizationStatusAuthorizedWhenInUse) {
+//     [self _handle:handle status:SYZPermissionStatusAuthorized];
+//     } else {
+//     [self _handle:handle status:SYZPermissionStatusRestricted];
+//     }
 }
 
 /** 日历权限 */
@@ -225,21 +224,21 @@ NSString * SYZPermissTypeName(SYZPermissType type) {
 #pragma mark - Private
 + (void)_handle:(SYZPermissionBlock)handle status:(SYZPermissionStatus)status type:(SYZPermissType)type {
     if (status != SYZPermissionStatusAuthorized) {
-//        NSString *appName = [SYZPermissSetting sharedInstance].appName;
-//        NSString *permissName = SYZPermissTypeName(type);
-//        NSString *message = [NSString stringWithFormat:@"请在iPhone的“设置->%@”开启%@访问权限", appName, permissName];
-//        UIAlertController *alertVc = [UIAlertController alertControllerWithTitle:@"提醒" message:message preferredStyle:UIAlertControllerStyleAlert];
-//        [alertVc addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-//            [self _handle:handle status:status];
-//        }]];
-//        [alertVc addAction:[UIAlertAction actionWithTitle:@"前往设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-//            if (@available(iOS 10.0, *)) {
-//                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];
-//            } else {
-//                NSString *appBundle = [SYZPermissSetting sharedInstance].appBundle;
-//                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"prefs:root=%@", SYZNoNilString(appBundle)]]];
-//            }
-//        }]];
+        NSString *appName = [SYZPermissSetting sharedInstance].appName;
+        NSString *permissName = SYZPermissTypeName(type);
+        NSString *message = [NSString stringWithFormat:@"请在iPhone的“设置->%@”开启%@访问权限", appName, permissName];
+        UIAlertController *alertVc = [UIAlertController alertControllerWithTitle:@"提醒" message:message preferredStyle:UIAlertControllerStyleAlert];
+        [alertVc addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            [self _handle:handle status:status];
+        }]];
+        [alertVc addAction:[UIAlertAction actionWithTitle:@"前往设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            if (@available(iOS 10.0, *)) {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];
+            } else {
+                NSString *appBundle = [SYZPermissSetting sharedInstance].appBundle;
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"prefs:root=%@", SYZNoNilString(appBundle)]]];
+            }
+        }]];
         
 //        [SYZGlobalMediator.currentViewController presentViewController:alertVc animated:YES completion:nil];
     } else {
@@ -260,8 +259,6 @@ NSString * SYZPermissTypeName(SYZPermissType type) {
         });
     }
 }
-
-
 
 + (void)_requestEventOrReminderWith:(EKEntityType)type handle:(SYZPermissionBlock)handle permiss:(SYZPermissType)permiss {
     EKEventStore *eventStore = [[EKEventStore alloc] init];
